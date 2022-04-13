@@ -1,0 +1,24 @@
+{
+  "name": "@backlight-dev/loblaw.ds-emotion",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx backlight@latest serve OrQVuK2ZYT4RhUKJEiNK --open"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-spinners": "^0.11.0",
+    "@emotion/styled": "^11.8.1",
+    "@emotion/react": "^11.9.0",
+    "theme-ui": "^0.10.0"
+  },
+  "devDependencies": {
+    "@divriots/dockit-react": "^0.0.84",
+    "@mdx-js/react": "^1.6.22",
+    "deepmerge": "^4.2.2"
+  }
+}
