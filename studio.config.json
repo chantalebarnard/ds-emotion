@@ -1,34 +1,36 @@
 {
-  "packages": {
-    "dir": "",
-    "menu": [
-      "readme",
-      [
-        "tokens",
-        [
-          "typography",
-          "colors",
-          "space",
-          "sizes",
-          "shadows",
-          "radii",
-          "border",
-          "z-index",
-          "all"
-        ]
-      ],
-      [
-        "components",
-        [
-          "button"
-        ]
-      ],
-      [
-        "dockit",
-        [
-          "layout"
-        ]
-      ]
+ "packages": {
+  "dir": "",
+  "menu": [
+   "readme",
+   [
+    "tokens",
+    [
+     "typography",
+     "colors",
+     "space",
+     "sizes",
+     "shadows",
+     "radii",
+     "border",
+     "z-index",
+     "all"
     ]
-  }
+   ],
+   [
+    "components",
+    [
+     "button",
+     "title",
+     "text"
+    ]
+   ],
+   [
+    "dockit",
+    [
+     "layout"
+    ]
+   ]
+  ]
+ }
 }
