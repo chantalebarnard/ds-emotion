@@ -1,7 +1,7 @@
 export const typography = {
   fonts: {
-    normal: '-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif',
-    mono: 'SFMono-Regular, Consolas, Menlo, Courier, monospace',
+    normal: 'Univers, Helvetica, Arial, sans-serif',
+    mono: 'Noir Std, JFCalibre, Helvetica Neue, Helvetica, Arial, sans-serif',
     serif: 'Times New Roman',
   },
   fontSizes: ['12px', '14px', '16px', '20px', '24px', '32px', '40px', '48px'],
