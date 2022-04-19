@@ -1,12 +1,9 @@
-import React, { ReactNode } from 'react';
+import React, { ReactNode, FC } from 'react';
 
 interface Props {
-  /**
-   * Child node(s) of the button.
-   */
   children: ReactNode | ReactNode[];
 }
 
-export const Text = ({ children }: Props) => {
+export const Text: FC<Props> = ({ children }) => {
   return <p>{children}</p>;
 };

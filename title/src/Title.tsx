@@ -1,4 +1,4 @@
-import React, { ReactNode, ReactElement } from 'react';
+import React, { ReactNode, ReactElement, FC } from 'react';
 
 interface Props {
   /**
@@ -7,6 +7,6 @@ interface Props {
   children: ReactNode | ReactNode[] | string | ReactElement | any;
 }
 
-export const Title = ({ children }: Props) => {
+export const Title: FC<Props> = ({ children }) => {
   return <h1>{children}</h1>;
 };
