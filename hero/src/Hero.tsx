@@ -1,18 +1,7 @@
-import React, { ReactNode, FC } from 'react';
-import { Text } from '../../text';
-import { Title } from '../../title';
+import React, { ReactNode } from 'react';
 import * as styles from './Hero.styles';
 
 interface Props {
-  /**
-   * The main title of hero image
-   */
-  heading: ReactNode | ReactNode[] | string;
-  /**
-   * The subheading of hero image
-   */
-  subHeading: ReactNode | ReactNode[] | string;
-
   /**
    * Child node(s) of the button.
    */
@@ -23,17 +12,13 @@ interface Props {
   image?: string;
 }
 
-export const Hero: FC<Props> = ({ heading, subHeading, children, image }) => {
+export const Hero = ({ children, image }: Props) => {
   return (
     <section className={styles.hero}>
       <div className={styles.heroImage}>
         <img src={image} />
       </div>
-      <div className={styles.heroContent}>
-        <Title>{heading}</Title>
-        <Text>{subHeading}</Text>
-        {children}
-      </div>
+      <div className={styles.heroContent}>{children}</div>
     </section>
   );
 };
