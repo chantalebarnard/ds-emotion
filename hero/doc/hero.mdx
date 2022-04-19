@@ -13,7 +13,11 @@ export default MdxLayout;
 ```tsx
 import { Hero } from '@loblaw/ds-emotion/hero';
 
-export const Text = () => <Hero>This is my Text</Hero>;
+export const Hero = () => (
+  <Hero heading="this is a heading" subHeading="this is a child">
+    This is a hero image
+  </Hero>
+);
 ```
 
 ## Example

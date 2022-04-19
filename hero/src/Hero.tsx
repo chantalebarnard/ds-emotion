@@ -24,7 +24,7 @@ interface Props {
 
 export const Hero: FC<Props> = ({ heading, subHeading, children, image }) => {
   return (
-    <section>
+    <section style={{ border: '3px solid dodgerBlue', padding: '20px' }}>
       <div>
         <img src={image} />
       </div>
